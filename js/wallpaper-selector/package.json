@@ -1,10 +1,11 @@
 {
   "name": "wallpaper-selector",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool that selects a desktop wallpaper based on the sun's position, using latitude and longitude.",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "pretest": "npm run build",
     "test": "node dist/tests.js",
     "build": "tsc",
     "start": "node --no-warnings dist/index.js"
