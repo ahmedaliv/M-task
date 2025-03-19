@@ -14,6 +14,12 @@ A Node.js CLI tool that selects a desktop wallpaper based on the sun's location 
 ```bash
 npm install
 ```
+3. build the project using:
+
+```bash
+npm run build
+```
+
 ## Usage
 
 Run the program with latitude and longitude as arguments:
