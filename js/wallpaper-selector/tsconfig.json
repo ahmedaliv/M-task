@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    // "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    // "noEmit": true
+  },
+  "include": ["src"]
+}
